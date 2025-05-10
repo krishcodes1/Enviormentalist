@@ -473,7 +473,7 @@ Indexes:
 
 -------------
 **SEEDING** 
-- To seed the database, replace the contents of MainActivity.kt with the code from MainActivitySeed.kt. Relaunch the app and tap the 'Seed Database' button.
+- To seed the database, replace the contents of MainActivity.kt with the code from MainActivitySeed.kt-(No longer needed I have merged file ). Relaunch the app and tap the 'Seed Database' button.
 
 
 ```
