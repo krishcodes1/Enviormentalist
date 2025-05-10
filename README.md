@@ -1,282 +1,246 @@
-Environmentalist Community App
+Environmentalist_v1.0 Instructions 
 
-A modern Android application built with Jetpack Compose that connects environmentalists and promotes community engagement in environmental activities.
+# Environmentalist Community App
 
-Contributors
+A modern Android application built with Jetpack Compose that connects environmentalists and promotes community engagement in environmental activities. (Seeding Instrcutions to the bottom )
 
-- [Your Name] - Project Lead & Full Stack Development
-  - Implemented authentication system
-  - Designed and developed UI components
-  - Set up Firebase integration
-  - Created event management system
+---
 
-- [Team Member 2] - Backend Development
-  - Implemented database schema
-  - Set up Firebase security rules
-  - Created API endpoints
-  - Managed data models
+## 📌 Features
 
-- [Team Member 3] - UI/UX Design
-  - Designed user interface
-  - Created app icons and assets
-  - Implemented Material Design 3 components
-  - Designed user flows
+### 🔐 Authentication
+- Login and register securely
+- Role-based access for community members and environmentalists
+- Email verification and password reset
 
-Features
+### 📊 Dashboard
+- View featured and upcoming events
+- Filter by category: Popular, Pollution, Outdoor, Community
+- Search events and posts
+- Real-time updates from the community
 
-1. User Authentication
-Login/Register: Secure authentication system
+### 🌱 Community Feed
+- Create and share posts
+- Like, comment, and engage in discussions
+- Upload images with posts
 
-Profile Management: Customize your profile and track your impact
+### 📅 Events
+- Discover and RSVP to local and global environmental events
+- View event details and ratings
+- Manage attendance
 
-Role-based Access: Different views for environmentalists and community members
+### 👤 Profile & Impact
+- View environmental contributions
+- Track activity and achievements
+- Edit profile details
 
-2. Dashboard
-Featured Events: Highlighted environmental events
+---
 
-Category Filtering: Browse events by categories (Popular, Pollution, Outdoor, Community)
+## 👥 Contributors
 
-Search Functionality: Find events and posts easily
+- **Krish Shroff** – Project Lead & Full Stack Developer  
+  - Implemented authentication system and Firebase integration  
+  - Designed and developed UI components  
+  - Built the event management system  
+  - Led the team and coordinated development efforts
+  - Testing and Troubleshooting    
 
-Real-time Updates: Live feed of community activities
+- **Aminuz** – Backend Developer (Support Role)  
+  - Assisted with backend logic and project setup  
 
-3. Community Feed
-Post Creation: Share your environmental initiatives
+- **Awias** – Backend Developer  
+  - Created backend structure and initial configurations  
+  - Helped define database schemas  
+  - Contributed ideas and supported overall development  
 
-Interactive Posts: Like, dislike, and comment on posts
+- **Ayon** – Team Supporter  
+  - Provided assistance with coordination and feedback  
+  - Supported team communication and progress  
 
-Image Support: Upload images with your posts
+- **Adrian** – Team Supporter  
+  - Participated in team discussions and presentations  
+  - Assisted with group documentation and logistics
 
-Discussion Threads: Engage in meaningful conversations
+---
 
-4. Events
-Event Discovery: Browse upcoming environmental events
+## 🚀 User Guide
 
-Event Details: Comprehensive information about each event
-
-RSVP System: Register for events you're interested in
-
-Rating System: Rate and review events
-
-5. Profile & Impact
-Impact History: Track your environmental contributions
-
-Activity Log: View your past engagements
-
-Achievements: Monitor your environmental impact
-
-User Guide
-
-Installation
-1. Download the app from the Google Play Store (link to be added)
+### 📲 Installation
+1. Download the app from the [Google Play Store](#) *(link coming soon)*
 2. Open the app and create an account
 3. Verify your email address
 4. Complete your profile setup
 
-Basic Usage
-1. Home Screen
-   - View featured events
-   - Browse community posts
-   - Access quick actions
+### 🧭 Basic Navigation
+- **Home**: View featured events & quick actions  
+- **Community**: Engage with environmental posts  
+- **Events**: RSVP, filter, and explore  
+- **Profile**: Track impact and manage settings  
 
-2. Events
-   - Browse upcoming events
-   - Filter by category
-   - RSVP to events
-   - View event details
+---
 
-3. Community
-   - Create posts
-   - Like and comment
-   - Share environmental initiatives
-   - Join discussions
+## 🛠️ Technology Stack
 
-4. Profile
-   - View your impact
-   - Track achievements
-   - Manage settings
-   - View activity history
+### 💻 Requirements
 
-Technology Stack
+#### Hardware
+- Android device with Android 7.0+ (API 24+)
+- Minimum 2GB RAM and 100MB free storage
 
-Hardware Requirements
-- Android device with Android 7.0 (API level 24) or higher
-- Minimum 2GB RAM
-- 100MB free storage space
-- Internet connection
-
-Software Requirements
+#### Software
 - Android Studio Arctic Fox (2020.3.1) or newer
-- Android SDK 24 or higher
-- Kotlin 1.8.0 or higher
-- JDK 11 or higher
+- Kotlin 1.8.0+, JDK 11+
 - Git for version control
 
-Development Tools
-- Android Studio
-- Firebase Console
-- Git
+### 🧰 Tools
+- Android Studio  
+- Firebase Console  
+- Git  
 - Postman (for API testing)
 
-Setup Guide
+---
 
-Development Environment Setup
-1. Install Required Software
-   # Install Android Studio
-   # Download from: https://developer.android.com/studio
+## ⚙️ Development Setup
 
-   # Install JDK 11
-   # Download from: https://adoptium.net/
+### Step 1: Install Required Software
+```bash
+# Android Studio
+https://developer.android.com/studio
 
-2. Clone the Repository
-   git clone https://github.com/yourusername/environmentalist-app.git
-   cd environmentalist-app
+# JDK 11
+https://adoptium.net/
+```
 
-3. Firebase Setup
-   - Create a new Firebase project at https://console.firebase.google.com
-   - Enable Authentication (Email/Password and Google Sign-in)
-   - Enable Firestore Database
-   - Enable Storage
-   - Download google-services.json and place it in the app directory
+### Step 2: Clone the Repository
+```bash
+git clone [https://github.com/krishcodes1/Environmentalist_v1.0]
+cd environmentalist-app
+```
 
-4. Build and Run
-   # Open project in Android Studio
-   # Sync Gradle files
-   # Run the app on an emulator or physical device
+### Step 3: Configure Firebase
+- Create Firebase project: https://console.firebase.google.com  
+- Enable:
+  - Email/Password Auth
+  - Firestore
+  - Firebase Storage  
+- Download `google-services.json` and place in `app/`
 
-Production Environment Setup
-1. Firebase Configuration
-   - Set up production Firebase project
-   - Configure security rules
-   - Set up backup and monitoring
+### Step 4: Build & Run
+- Open project in Android Studio  
+- Sync Gradle  
+- Run the app on an emulator or device  
 
-2. App Signing
-   - Generate release keystore
-   - Configure signing in build.gradle
-   - Create release build
+---
 
-3. Deployment
-   - Upload to Google Play Console
-   - Configure app settings
-   - Submit for review
+## 🌐 Production Setup
 
-Packages and APIs
+### Firebase
+- Separate production project
+- Security rules and monitoring configured
 
-Firebase Services
-1. Authentication
-   - Purpose: Secure user authentication
-   - Methods: Email/Password, Google Sign-in
-   - Implementation: Firebase Auth SDK
-   implementation(com.google.firebase:firebase-auth-ktx)
+### App Signing & Deployment
+```bash
+# Generate keystore
+# Add signingConfigs to build.gradle
+# Create release build and upload to Google Play Console
+```
 
-2. Firestore Database
-   - Purpose: Real-time data storage
-   - Structure: Collections and documents
-   - Implementation: Firebase Firestore SDK
-   implementation(com.google.firebase:firebase-firestore-ktx)
+---
 
-3. Storage
-   - Purpose: Image and file storage
-   - Implementation: Firebase Storage SDK
-   implementation(com.google.firebase:firebase-storage-ktx)
+## 📦 Packages & APIs
 
-UI Components
-1. Jetpack Compose
-   - Purpose: Modern UI toolkit
-   - Version: 1.4.0
-   - Implementation:
-   implementation(androidx.compose.ui:ui)
-   implementation(androidx.compose.material3:material3)
+### 🔐 Firebase Authentication
+```kotlin
+implementation("com.google.firebase:firebase-auth-ktx")
+```
 
-2. Coil
-   - Purpose: Image loading
-   - Version: 2.4.0
-   - Implementation:
-   implementation(io.coil-kt:coil-compose:2.4.0)
+### 🗂️ Firestore Database
+```kotlin
+implementation("com.google.firebase:firebase-firestore-ktx")
+```
 
-Navigation
-1. Navigation Compose
-   - Purpose: Screen navigation
-   - Version: 2.7.7
-   - Implementation:
-   implementation(androidx.navigation:navigation-compose:2.7.7)
+### 🖼️ Firebase Storage
+```kotlin
+implementation("com.google.firebase:firebase-storage-ktx")
+```
 
-API Endpoints
+### 🎨 UI Libraries
+```kotlin
+// Jetpack Compose
+implementation("androidx.compose.ui:ui")
+implementation("androidx.compose.material3:material3")
 
-Authentication
+// Coil for image loading
+implementation("io.coil-kt:coil-compose:2.4.0")
+```
+
+### 📍 Navigation
+```kotlin
+implementation("androidx.navigation:navigation-compose:2.7.7")
+```
+
+---
+
+## 🔗 API Endpoints
+
+### Authentication
+```
 POST /auth/signup
 POST /auth/login
 POST /auth/google
+```
 
-Events
+### Events
+```
 GET /events
 GET /events/{id}
 POST /events/{id}/rsvp
+```
 
-Posts
+### Posts
+```
 GET /posts
 POST /posts
 PUT /posts/{id}
 DELETE /posts/{id}
+```
 
-User Profile
+### User Profile
+```
 GET /users/{id}
 PUT /users/{id}
 GET /users/{id}/impact
+```
 
-Security
+---
 
-Authentication Methods
-1. Email/Password
-   - Secure password hashing
-   - Email verification
-   - Password reset functionality
+## 🔒 Security
 
-2. Google Sign-in
-   - OAuth 2.0 implementation
-   - Secure token handling
-   - Profile data synchronization
+### Firestore Rules
+```js
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth.uid == userId;
+    }
+  }
+}
+```
 
-Data Security
-1. Firestore Rules
-   rules_version = '2';
-   service cloud.firestore {
-     match /databases/{database}/documents {
-       match /users/{userId} {
-         allow read: if request.auth != null;
-         allow write: if request.auth.uid == userId;
-       }
-     }
-   }
+### Storage Rules
+```js
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
 
-2. Storage Rules
-   rules_version = '2';
-   service firebase.storage {
-     match /b/{bucket}/o {
-       match /{allPaths=**} {
-         allow read: if request.auth != null;
-         allow write: if request.auth != null;
-       }
-     }
-   }
-
-Support
-
-For support, please:
-1. Check the FAQ (docs/FAQ.md)
-2. Open an issue in the repository
-3. Contact the development team at [support@environmentalist-app.com]
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-- Material Design 3
-- Jetpack Compose
-- Firebase
-- Coil
-- Android Jetpack Libraries
 
 Codebase Documentation
 
@@ -505,4 +469,208 @@ Indexes:
     }
   ]
 }
-``` 
+```
+
+-------------
+**SEEDING** 
+- To seed the database, replace the contents of MainActivity.kt with the code from MainActivitySeed.kt. Relaunch the app and tap the 'Seed Database' button.
+
+
+```
+
+package com.example.myapplication.utils
+
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.FieldValue
+import java.util.*
+import kotlin.random.Random
+
+class DatabaseSeeder {
+    private val db = FirebaseFirestore.getInstance()
+    private val random = Random(System.currentTimeMillis())
+
+    // Sample data arrays
+    private val firstNames = listOf("John", "Jane", "Michael", "Sarah", "David", "Emma", "James", "Olivia")
+    private val lastNames = listOf("Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller")
+    private val interests = listOf("recycling", "cleanup", "conservation", "sustainability", "gardening", "wildlife")
+    private val eventTitles = listOf(
+        "Beach Cleanup", "Tree Planting", "Recycling Drive",
+        "Community Garden", "Wildlife Conservation", "Eco Workshop"
+    )
+    private val eventDescriptions = listOf(
+        "Join us for a community cleanup event",
+        "Help us plant trees in the local park",
+        "Learn about recycling and sustainability",
+        "Participate in our community garden project",
+        "Support local wildlife conservation efforts",
+        "Attend our environmental workshop"
+    )
+    private val locations = listOf(
+        mapOf(
+            "address" to "123 Beach Road",
+            "latitude" to 40.7128,
+            "longitude" to -74.0060
+        ),
+        mapOf(
+            "address" to "456 Park Avenue",
+            "latitude" to 40.7829,
+            "longitude" to -73.9654
+        ),
+        mapOf(
+            "address" to "789 Garden Street",
+            "latitude" to 40.7589,
+            "longitude" to -73.9851
+        )
+    )
+
+    fun seedDatabase() {
+        // Create 10 random users
+        repeat(10) {
+            createRandomUser()
+        }
+
+        // Create 15 random events
+        repeat(15) {
+            createRandomEvent()
+        }
+
+        // Create 20 random posts
+        repeat(20) {
+            createRandomPost()
+        }
+    }
+
+    private fun createRandomUser() {
+        val userId = UUID.randomUUID().toString()
+        val firstName = firstNames.random()
+        val lastName = lastNames.random()
+        
+        val user = mapOf(
+            "uid" to userId,
+            "email" to "${firstName.lowercase()}.${lastName.lowercase()}@example.com",
+            "name" to "$firstName $lastName",
+            "bio" to "Environmental enthusiast passionate about ${interests.random()}",
+            "profileImageUrl" to "https://example.com/profiles/${userId}.jpg",
+            "interests" to interests.shuffled().take(random.nextInt(1, 4)),
+            "communities" to listOf<String>(),
+            "events" to listOf<String>(),
+            "createdAt" to FieldValue.serverTimestamp(),
+            "lastLogin" to FieldValue.serverTimestamp()
+        )
+
+        db.collection("users").document(userId).set(user)
+    }
+
+    private fun createRandomEvent() {
+        val eventId = UUID.randomUUID().toString()
+        val startDate = Calendar.getInstance().apply {
+            add(Calendar.DAY_OF_MONTH, random.nextInt(1, 30))
+            set(Calendar.HOUR_OF_DAY, random.nextInt(9, 17))
+        }.time
+
+        val endDate = Calendar.getInstance().apply {
+            time = startDate
+            add(Calendar.HOUR_OF_DAY, random.nextInt(2, 5))
+        }.time
+
+        val event = mapOf(
+            "id" to eventId,
+            "title" to eventTitles.random(),
+            "description" to eventDescriptions.random(),
+            "startDate" to startDate,
+            "endDate" to endDate,
+            "location" to locations.random(),
+            "organizer" to mapOf(
+                "id" to UUID.randomUUID().toString(),
+                "name" to "${firstNames.random()} ${lastNames.random()}"
+            ),
+            "category" to listOf("cleanup", "conservation", "education", "community").random(),
+            "imageUrl" to "https://example.com/events/${eventId}.jpg",
+            "participants" to listOf<String>(),
+            "rating" to random.nextDouble(3.0, 5.0),
+            "createdAt" to FieldValue.serverTimestamp()
+        )
+
+        db.collection("events").document(eventId).set(event)
+    }
+
+    private fun createRandomPost() {
+        val postId = UUID.randomUUID().toString()
+        val userId = UUID.randomUUID().toString()
+        val firstName = firstNames.random()
+        val lastName = lastNames.random()
+
+        val post = mapOf(
+            "id" to postId,
+            "author" to mapOf(
+                "id" to userId,
+                "name" to "$firstName $lastName",
+                "profileImageUrl" to "https://example.com/profiles/${userId}.jpg"
+            ),
+            "content" to "Just participated in ${eventTitles.random()}! It was amazing to see the community come together for environmental conservation.",
+            "imageUrl" to "https://example.com/posts/${postId}.jpg",
+            "likes" to listOf<String>(),
+            "dislikes" to listOf<String>(),
+            "comments" to listOf<Map<String, Any>>(),
+            "createdAt" to FieldValue.serverTimestamp()
+        )
+
+        db.collection("posts").document(postId).set(post)
+
+        // Add 2-5 random comments to each post
+        repeat(random.nextInt(2, 6)) {
+            createRandomComment(postId)
+        }
+    }
+
+    private fun createRandomComment(postId: String) {
+        val commentId = UUID.randomUUID().toString()
+        val userId = UUID.randomUUID().toString()
+        val firstName = firstNames.random()
+        val lastName = lastNames.random()
+
+        val comment = mapOf(
+            "id" to commentId,
+            "postId" to postId,
+            "author" to mapOf(
+                "id" to userId,
+                "name" to "$firstName $lastName",
+                "profileImageUrl" to "https://example.com/profiles/${userId}.jpg"
+            ),
+            "content" to listOf(
+                "Great initiative!",
+                "Count me in for the next one!",
+                "This is exactly what our community needs.",
+                "Amazing work everyone!",
+                "Looking forward to more events like this."
+            ).random(),
+            "likes" to listOf<String>(),
+            "createdAt" to FieldValue.serverTimestamp()
+        )
+
+        db.collection("comments").document(commentId).set(comment)
+    }
+}
+```
+---
+
+## 📞 Support
+
+- Contact: Kshroff@nyit.edu
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) © 2025 Krish Shroff and the Environmentalist Group.
+
+---
+
+## 🙏 Acknowledgments
+
+- [Jetpack Compose](https://developer.android.com/jetpack/compose)
+- [Firebase](https://firebase.google.com/)
+- [Material Design 3](https://m3.material.io/)
+- [Coil](https://coil-kt.github.io/coil/)
+
+
